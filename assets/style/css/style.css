@@ -762,7 +762,7 @@ footer .container-fluid .copyright-area p a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 100vh;
   }
 
   #header #header-container .text-container h1 {
