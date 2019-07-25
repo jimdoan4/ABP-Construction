@@ -220,6 +220,11 @@ h5 {
   color: #ffffff;
 }
 
+/* .responsive {
+  max-width: 100%;
+  height: auto;
+} */
+
 /*************************** NAVBAR **********************/
 #navbar {
   padding: 15px 25px;
@@ -260,7 +265,8 @@ h5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+height: 600px; 
+
 }
 
 
@@ -333,6 +339,8 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+  width: 100%;
+  height: auto;
 }
 
 #header-request #header-container .text-container {
@@ -755,7 +763,7 @@ footer .container-fluid .copyright-area p a {
     background: black;
   }
 
-  #header #header-container {
+   #header #header-container {
      padding: 50px; 
     background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
     background-attachment: fixed;
@@ -764,7 +772,7 @@ footer .container-fluid .copyright-area p a {
      background-size: cover; 
     height: 600px;
     width: 100%;
-  }
+  } 
 
   #header #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
