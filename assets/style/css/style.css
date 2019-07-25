@@ -755,19 +755,116 @@ footer .container-fluid .copyright-area p a {
     background: black;
   }
 
+  #header #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #header #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
   #header-about #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
     /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 30px;
   }
   
   #header-about #header-container .text-container h2 {
     font-family: "muse-300", Georgia, serif;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+  }
+
+  #header-about #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #header-portfolio #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header-portfolio #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #header-portfolio #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header-services #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header-services #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #header-services #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header-contact #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  #header-contact #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #header-contact #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
   }
 }
 
