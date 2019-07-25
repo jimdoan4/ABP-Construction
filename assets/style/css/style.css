@@ -756,13 +756,14 @@ footer .container-fluid .copyright-area p a {
   }
 
   #header #header-container {
-    padding: 50px;
+     padding: 50px; 
     background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+     background-size: cover; 
+    height: 700px;
+    width: 100%;
   }
 
   #header #header-container .text-container h1 {
@@ -879,6 +880,8 @@ footer .container-fluid .copyright-area p a {
 }
 
 @media only screen and (max-width: 414px) {
+
+
   #header #footer-container p {
     letter-spacing: 1px;
     line-height: 1.2;
