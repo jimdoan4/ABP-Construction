@@ -3,18 +3,22 @@
   font-family: 'muse-500';
   src: url('../fonts/museosans-500.otf');
 }
+
 @font-face {
   font-family: 'muse-300';
   src: url('../fonts/museosansrounded-300-webfont.ttf'), url('../fonts/museosansrounded-300-webfont.woff'), url('../fonts/museosansrounded-300-webfont.svg');
 }
+
 @font-face {
   font-family: 'OpenSans';
   src: url('../fonts/OpenSans-Regular.ttf');
 }
+
 @font-face {
   font-family: 'OpenSans-Semibold';
   src: url('../fonts/OpenSans-SemiBold.ttf');
 }
+
 /***************************** variables *****************************/
 /***************************** GENRAL RESET *****************************/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -109,6 +113,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -123,41 +128,51 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 /***************************** CUSTOM SETTINGS *****************************/
 html {
   background-color: #ffffff;
 }
+
 body {
   background-color: #ffffff;
   color: #5a6175;
 }
+
 p,
 ul,
 ol {
   margin-bottom: 0.5em;
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 sup {
   font-size: xx-small;
   vertical-align: super;
 }
+
 p a,
 h5 a {
   font-weight: bold;
   transition: all 0.2s ease-out;
 }
+
 h1,
 h2,
 h3,
@@ -166,26 +181,32 @@ h5 {
   line-height: 1.5;
   margin-bottom: 1.5em;
 }
+
 h1 {
   font-size: 28px;
   font-family: "muse-300", Georgia, serif;
 }
+
 h2 {
   font-size: 26px;
   font-family: "muse-300", Georgia, serif;
 }
+
 h3 {
   font-size: 21px;
   font-family: "muse-300", Georgia, serif;
 }
+
 h4 {
   font-size: 18px;
   font-family: "muse-300", Georgia, serif;
 }
+
 h5 {
   font-size: 14px;
   font-weight: bold;
 }
+
 .btn-custom {
   color: #ffffff;
   background-color: red;
@@ -193,10 +214,12 @@ h5 {
   font-family: "muse-500", Arial, sans-serif;
   transition: 0.3s all ease-out;
 }
+
 .btn-custom:hover {
   box-shadow: 1px 3px 12px 0px #b3b3b3;
   color: #ffffff;
 }
+
 /*************************** NAVBAR **********************/
 #navbar {
   padding: 15px 25px;
@@ -204,10 +227,12 @@ h5 {
   background: black;
   transition: padding-top 0.3s, padding-bottom 0.3s;
 }
+
 #navbar .navbar-toggler {
   background: red;
   border: none;
 }
+
 #navbar .navbar-nav .nav-item .nav-link {
   color: white;
   font-weight: 400;
@@ -215,16 +240,19 @@ h5 {
   font-family: "muse-500", Arial, sans-serif;
   transition: all 0.3s ease-out;
 }
+
 #navbar .navbar-nav .nav-item .nav-link.active,
 #navbar .navbar-nav .nav-item .nav-link:hover {
   background: red;
   color: white !important;
   transition: all 0.5s ease-out;
 }
+
 /**************************** HEADER ***************************/
 #header {
   overflow-x: hidden;
 }
+
 #header #header-container {
   padding: 50px;
   background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg');
@@ -245,6 +273,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -263,11 +292,13 @@ h5 {
 #header #header-container .text-container h4 {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
+
 #header #footer-container {
   background-color: #f2f2f2;
   padding: 30px;
   border-bottom: 1px solid #e6e6e6;
 }
+
 #header #footer-container button {
   color: #ffffff;
   background-color: #2b4661;
@@ -276,15 +307,18 @@ h5 {
   float: right;
   margin: 0 0 10px 10px;
 }
+
 #header #footer-container .event-details {
   font-family: "muse-500", Arial, sans-serif;
   font-size: 18px;
   color: #565659;
 }
+
 #header #footer-container .event-details a {
   font-family: "OpenSans-Semibold", Arial, sans-serif;
   font-size: 16px;
 }
+
 #header #footer-container p {
   color: #5a6175;
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
@@ -310,6 +344,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header-request #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -345,6 +380,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header-contact #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -380,6 +416,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header-services #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -415,6 +452,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header-about #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -450,6 +488,7 @@ h5 {
   color: #2b4661;
   line-height: 1.5em;
 }
+
 #header-portfolio #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
   /* font-family: "muse-300", Georgia, serif; */
@@ -465,31 +504,48 @@ h5 {
   font-size: 30px;
 }
 
+.zoom {
+  transition: transform .5s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /**************************** GET-INVOLVED ***************************/
 #get-involved {
   padding: 50px 0;
 }
+
 #get-involved .container h3 {
   font-family: "muse-500", Arial, sans-serif;
   margin-bottom: 50px;
 }
+
 #get-involved .container .row .col-md-4 img {
   height: 150px;
   margin: 0 auto;
   display: block;
   margin-bottom: 30px;
 }
+
 #get-involved .container .row .col-md-4 h4 {
   font-family: "muse-500", Arial, sans-serif;
   margin-bottom: 15px;
 }
+
 #get-involved .container .row .col-md-4 p {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
+
 #get-involved .container .row .col-md-4 a {
   margin-top: 10px;
 }
+
 /**************************** MISSION ***************************/
 #mission {
   background-color: #f2f2f2;
@@ -499,18 +555,22 @@ h5 {
   opacity: 0;
   transition: all 0.7s ease-out;
 }
+
 #mission .container h3,
 #mission .container h4 {
   font-family: "muse-500", Arial, sans-serif;
 }
+
 #mission .container h5 {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
+
 #mission .container .row .col-md-4 .card {
   border: none;
   border-radius: 5px;
   margin-top: 50px;
 }
+
 #mission .container .row .col-md-4 .card .icon-container {
   border-radius: 50%;
   margin: 0 auto;
@@ -519,161 +579,205 @@ h5 {
   margin-top: -45px;
   width: 100px;
 }
+
 #mission .container .row .col-md-4 .card .icon-container img {
   padding: 16px;
   width: 75px;
   height: 70px;
 }
+
 #mission .container .row .col-md-4 .card .card-body .card-title {
   color: #2b4661;
   margin-bottom: 15px;
   font-family: "muse-300", Georgia, serif;
 }
+
 #mission .container .row .col-md-4 .card .card-body .card-text {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
+
 /**************************** MEMBERS ***************************/
 #members {
   padding: 50px 50px 0 50px;
 }
+
 #members .container h3 {
   font-family: "muse-500", Arial, sans-serif;
   margin-bottom: 60px;
 }
+
 #members .container #members-slider img {
-  height: 50px;
-  width: 120px;
-  margin: 0 auto;
+  height: 300px;
+  width: 220px;
+  margin: 20px;
   margin-bottom: 20px;
+
 }
+
 #members .container #members-slider img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-out;
 }
+
 #members .container .owl-carousel .owl-dots.disabled {
   display: inline-block;
   margin-top: 50px;
 }
+
 #members .container .owl-theme .owl-dots .owl-dot.active span,
 #members .container .owl-theme .owl-dots .owl-dot:hover span {
   background: #2b4661 !important;
 }
+
 #members .container .owl-theme .owl-dots .owl-dot span {
   background: #2b4661 !important;
 }
+
 /********************************* EVENT ***********************************/
 #event {
   padding: 50px 0;
   font-family: "muse-500", Arial, sans-serif;
 }
+
 #event .container .row .col-md-4 .card a img {
   opacity: 0.7;
   height: 200px;
 }
+
 #event .container .row .col-md-4 .card a img:hover {
   opacity: 1;
   transition: all 0.7s ease-out;
 }
+
 #event .container .row .col-md-4 .card .card-text {
   line-height: 1.3;
 }
+
 /********************************* BLOG ***********************************/
 #blog {
   padding: 0 0 50px 0;
 }
+
 #blog h3 {
   font-family: "muse-500", Arial, sans-serif;
   color: #2b4661;
   margin: 50px 0;
 }
+
 #blog #blog-slider .item a h4 {
   font-family: "OpenSans-Semibold", Arial, sans-serif;
   color: #2b4661;
   border-bottom: 1px solid #f2f2f2;
 }
+
 #blog #blog-slider .item a .main-p {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
   color: #2b4661;
   line-height: 1.5;
   border-bottom: 1px solid #f2f2f2;
 }
+
 #blog #blog-slider .item a p {
   color: #2b4661;
 }
+
 #blog .owl-nav {
   display: inline-block;
   position: relative;
   left: 48%;
   margin-top: 20px;
 }
+
 #blog .owl-prev {
   font-size: 30px;
   color: #2b4661;
   margin-right: 25px;
 }
+
 #blog .owl-next {
   font-size: 30px;
   color: #2b4661;
 }
+
 /**************************** CONTACT ***************************/
 #contact {
   padding: 50px 0;
 }
+
 #contact label {
   margin-bottom: 10px;
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
+
 /**************************** FOOTER ***************************/
 footer {
   padding: 20px;
   background: black;
 }
+
 footer .container-fluid .social {
   margin-bottom: 10px;
 }
+
 footer .container-fluid .social a {
   color: #ffffff;
   font-size: 16px;
   margin-left: 20px;
 }
+
 footer .container-fluid .copyright-area p {
   color: white;
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
+
 footer .container-fluid .copyright-area p a {
   color: #ffffff;
   text-decoration: none;
 }
+
+.copyright {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+
 /**************************** MEDIA-QUERY ***************************/
 @media only screen and (min-width: 300px) {
   #navbar {
     box-shadow: 0px 1px 7px #5a6175;
   }
+
   #navbar.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
     background: #ffffff;
   }
 }
+
 @media only screen and (max-width: 414px) {
   #header #footer-container p {
     letter-spacing: 1px;
     line-height: 1.2;
   }
+
   #get-involved .container .row .col-md-4 a {
     margin-bottom: 30px;
   }
+
   #event .container .row .col-md-4 .card {
     margin-bottom: 35px;
   }
+
   #event {
     padding-bottom: 0;
   }
+
   #blog {
     padding-bottom: 0;
   }
+
   #mission {
     opacity: 1;
   }
