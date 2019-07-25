@@ -754,6 +754,21 @@ footer .container-fluid .copyright-area p a {
     padding-bottom: 10px;
     background: black;
   }
+
+  #header-about #header-container .text-container h1 {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: "muse-300", Georgia, serif; */
+    color: red;
+    font-weight: bold;
+    font-size: 27px;
+  }
+  
+  #header-about #header-container .text-container h2 {
+    font-family: "muse-300", Georgia, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 414px) {
