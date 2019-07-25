@@ -755,6 +755,16 @@ footer .container-fluid .copyright-area p a {
     background: black;
   }
 
+  #header #header-container {
+    padding: 50px;
+    /* background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
   #header #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
     /* font-family: "muse-300", Georgia, serif; */
