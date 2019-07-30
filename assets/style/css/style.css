@@ -220,10 +220,7 @@ h5 {
   color: #ffffff;
 }
 
-/* .responsive {
-  max-width: 100%;
-  height: auto;
-} */
+
 
 /*************************** NAVBAR **********************/
 #navbar {
@@ -259,16 +256,21 @@ h5 {
 }
 
 #header #header-container {
-  padding: 50px;
-  background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg');
-  background-attachment: fixed;
+  padding: 60px;
+  background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-height: 600px; 
-
+  display: block;
+  width: 100%;
 }
 
+.responsive {
+  height: auto; 
+  width: 100%;
+  /* display: block; */
+}
 
 #header #header-container .text-container {
   margin-top: 100px;
@@ -282,7 +284,7 @@ height: 600px;
 
 #header #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+ 
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -332,15 +334,13 @@ height: 600px;
 
 /**************************** HEADER-REQUEST ***************************/
 #header-request #header-container {
-  padding: 50px;
+  padding: 60px;
   background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/final-slider.jpg');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
   width: 100%;
-  height: auto;
 }
 
 #header-request #header-container .text-container {
@@ -355,7 +355,7 @@ height: 600px;
 
 #header-request #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -370,13 +370,13 @@ height: 600px;
 
 /**************************** HEADER-CONTACT ***************************/
 #header-contact #header-container {
-  padding: 50px;
+  padding: 60px;
   background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52211.jpg');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
+  width: 100%;
 }
 
 #header-contact #header-container .text-container {
@@ -391,7 +391,7 @@ height: 600px;
 
 #header-contact #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -406,13 +406,13 @@ height: 600px;
 
 /**************************** HEADER-SERVICES ***************************/
 #header-services #header-container {
-  padding: 50px;
-  background: url('https://www.fortifiedroofing.com/wp-content/themes/yootheme/cache/using-virtual-reality-tools-in-the-roofing-business-941d8a35.jpeg');
-  background-attachment: fixed;
+  padding: 60px;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-Vg6Oxx/construction-of-house-with-garden-time-lapse-3d-animation-showing-a-process-from-building-walls-to-installation-of-the-roof-windows-doors-and-garden-full-hd_4kjp74yxe__F0014.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
+  width: 100%;
 }
 
 #header-services #header-container .text-container {
@@ -427,7 +427,7 @@ height: 600px;
 
 #header-services #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -435,20 +435,20 @@ height: 600px;
 
 #header-services #header-container .text-container h2 {
   font-family: "muse-300", Georgia, serif;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 30px;
 }
 
 /**************************** HEADER-ABOUT***************************/
 #header-about #header-container {
-  padding: 50px;
+  padding: 60px;
   background: url('https://i1.wp.com/enlighteningwords.com/wp-content/uploads/2019/03/Roofing-company-names.jpg?fit=720%2C480&ssl=1');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
+  width: 100%;
 }
 
 #header-about #header-container .text-container {
@@ -463,7 +463,7 @@ height: 600px;
 
 #header-about #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -478,13 +478,13 @@ height: 600px;
 
 /**************************** HEADER-PORTFOLIO ***************************/
 #header-portfolio #header-container {
-  padding: 50px;
+  padding: 60px;
   background: url('https://www.rooferscoffeeshop.com/uploads/media/2018/04/APR-Tech-JobNimbus-6-Ways-JobNimbus-Helps-You-Market-Your-Roofing-Business.jpg');
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
+  width: 100%;
 }
 
 #header-portfolio #header-container .text-container {
@@ -499,7 +499,7 @@ height: 600px;
 
 #header-portfolio #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
-  /* font-family: "muse-300", Georgia, serif; */
+
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -763,7 +763,7 @@ footer .container-fluid .copyright-area p a {
     background: black;
   }
 
-   #header #header-container {
+   /* #header #header-container {
      padding: 50px; 
     background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
     background-attachment: fixed;
@@ -772,7 +772,7 @@ footer .container-fluid .copyright-area p a {
      background-size: cover; 
     height: 600px;
     width: 100%;
-  } 
+  }  */
 
   #header #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
