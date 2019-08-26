@@ -19,12 +19,7 @@
   src: url('../fonts/OpenSans-SemiBold.ttf');
 }
 
-/***************************** variables *****************************/
-/***************************** GENRAL RESET *****************************/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html,
 body,
 div,
@@ -221,7 +216,6 @@ h5 {
 }
 
 
-
 /*************************** NAVBAR **********************/
 #navbar {
   padding: 15px 25px;
@@ -251,26 +245,21 @@ h5 {
 }
 
 /**************************** HEADER ***************************/
-#header {
-  overflow-x: hidden;
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#header #header-container {
-  padding: 60px;
-  background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  width: 100%;
-}
-
-.responsive {
-  height: auto; 
-  width: 100%;
-  /* display: block; */
-}
+.header-img{
+  width: 100%!important;
+  max-width: 1600px!important;
+  min-width:200px!important;
+  height: auto ;
+  height: 700px!important;
+} 
 
 #header #header-container .text-container {
   margin-top: 100px;
@@ -284,7 +273,6 @@ h5 {
 
 #header #header-container .text-container h1 {
   font-family: 'Raleway', sans-serif;
- 
   color: red;
   font-weight: bold;
   font-size: 37px;
@@ -514,16 +502,14 @@ h5 {
 
 .zoom {
   transition: transform .5s;
-  /* Animation */
   margin: 0 auto;
 }
 
 .zoom:hover {
   transform: scale(1.3);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-/**************************** GET-INVOLVED ***************************/
+/**************************** INVOLVED ***************************/
 #get-involved {
   padding: 50px 0;
 }
@@ -605,43 +591,6 @@ h5 {
   line-height: 1.5;
 }
 
-/**************************** MEMBERS ***************************/
-#members {
-  padding: 50px 50px 0 50px;
-}
-
-#members .container h3 {
-  font-family: "muse-500", Arial, sans-serif;
-  margin-bottom: 60px;
-}
-
-#members .container #members-slider img {
-  height: 300px;
-  width: 220px;
-  margin: 20px;
-  margin-bottom: 20px;
-
-}
-
-#members .container #members-slider img:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease-out;
-}
-
-#members .container .owl-carousel .owl-dots.disabled {
-  display: inline-block;
-  margin-top: 50px;
-}
-
-#members .container .owl-theme .owl-dots .owl-dot.active span,
-#members .container .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2b4661 !important;
-}
-
-#members .container .owl-theme .owl-dots .owl-dot span {
-  background: #2b4661 !important;
-}
-
 /********************************* EVENT ***********************************/
 #event {
   padding: 50px 0;
@@ -660,52 +609,6 @@ h5 {
 
 #event .container .row .col-md-4 .card .card-text {
   line-height: 1.3;
-}
-
-/********************************* BLOG ***********************************/
-#blog {
-  padding: 0 0 50px 0;
-}
-
-#blog h3 {
-  font-family: "muse-500", Arial, sans-serif;
-  color: #2b4661;
-  margin: 50px 0;
-}
-
-#blog #blog-slider .item a h4 {
-  font-family: "OpenSans-Semibold", Arial, sans-serif;
-  color: #2b4661;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-#blog #blog-slider .item a .main-p {
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  color: #2b4661;
-  line-height: 1.5;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-#blog #blog-slider .item a p {
-  color: #2b4661;
-}
-
-#blog .owl-nav {
-  display: inline-block;
-  position: relative;
-  left: 48%;
-  margin-top: 20px;
-}
-
-#blog .owl-prev {
-  font-size: 30px;
-  color: #2b4661;
-  margin-right: 25px;
-}
-
-#blog .owl-next {
-  font-size: 30px;
-  color: #2b4661;
 }
 
 /**************************** CONTACT ***************************/
@@ -763,20 +666,15 @@ footer .container-fluid .copyright-area p a {
     background: black;
   }
 
-   /* #header #header-container {
-     padding: 50px; 
-    background: url('https://abpconstructionllc.com/wp-content/uploads/2019/06/slider52222.jpg'); 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-     background-size: cover; 
-    height: 600px;
-    width: 100%;
-  }  */
+  .header-img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
 
   #header #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -791,7 +689,6 @@ footer .container-fluid .copyright-area p a {
 
   #header #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -799,7 +696,6 @@ footer .container-fluid .copyright-area p a {
 
   #header-about #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -814,7 +710,6 @@ footer .container-fluid .copyright-area p a {
 
   #header-about #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -829,7 +724,6 @@ footer .container-fluid .copyright-area p a {
 
   #header-portfolio #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -851,7 +745,6 @@ footer .container-fluid .copyright-area p a {
 
   #header-services #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
@@ -873,7 +766,6 @@ footer .container-fluid .copyright-area p a {
 
   #header-contact #header-container .text-container h1 {
     font-family: 'Raleway', sans-serif;
-    /* font-family: "muse-300", Georgia, serif; */
     color: red;
     font-weight: bold;
     font-size: 30px;
